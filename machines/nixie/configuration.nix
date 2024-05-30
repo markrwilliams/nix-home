@@ -46,6 +46,8 @@
     LC_TIME = "en_US.UTF-8";
   };
 
+  nix.settings.experimental-features = [ "nix-command" ];
+
   # Configure keymap in X11
   services.xserver = {
     layout = "us";

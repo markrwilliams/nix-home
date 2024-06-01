@@ -104,8 +104,6 @@
       start = ''exec $HOME/.xsessionrc'';
     }
   ];
-  services.xserver.windowManager.xmonad.enable = true;
-  services.xserver.windowManager.xmonad.enableContribAndExtras = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
